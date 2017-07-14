@@ -20,15 +20,19 @@ public class Matcher implements Comparable {
         return new Matcher(5, "buzz", 1);
     }
 
-    public boolean isMatched(int digit) {
+    static Matcher whizz() {
+        return new Matcher(7, "whizz", 2);
+    }
+
+    boolean isMatched(int digit) {
         return digit % number == 0;
     }
 
-    public String getText() {
+    String getText() {
         return text;
     }
 
-    public int priority() {
+    private int priority() {
         return priority;
     }
 

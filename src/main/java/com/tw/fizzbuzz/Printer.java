@@ -9,8 +9,9 @@ class Printer {
 
     private final Matcher buzzMatcher = Matcher.buzz();
     private final Matcher fizzMatcher = Matcher.fizz();
+    private final Matcher whizzMatcher = Matcher.whizz();
 
-    private List<Matcher> matchers = Arrays.asList(fizzMatcher, buzzMatcher);
+    private List<Matcher> matchers = Arrays.asList(whizzMatcher, fizzMatcher, buzzMatcher);
 
     Printer() {
         //noinspection unchecked

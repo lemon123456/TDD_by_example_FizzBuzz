@@ -27,8 +27,11 @@ public class FizzBuzzTest {
     @Test
     public void test_when_input_is_fifteen() throws Exception {
         assertEquals("fizzbuzz", printer.fizzbuzz(15));
-
-
     }
 
+    @Test
+    public void test_when_input_is_seven() throws Exception {
+        assertEquals("whizz", printer.fizzbuzz(7));
+
+    }
 }
