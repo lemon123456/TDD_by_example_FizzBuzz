@@ -7,10 +7,8 @@ import java.util.List;
 
 class Printer {
 
-
-    private final BuzzMatcher buzzMatcher = new BuzzMatcher();
-    private final FizzMatcher fizzMatcher = new FizzMatcher();
-    private final FizzBuzzMatcher fizzBuzzMatcher = new FizzBuzzMatcher(fizzMatcher, buzzMatcher);
+    private final Matcher buzzMatcher = Matcher.buzz();
+    private final Matcher fizzMatcher = Matcher.fizz();
 
     private List<Matcher> matchers = Arrays.asList(fizzMatcher, buzzMatcher);
 
