@@ -6,9 +6,8 @@ import java.util.List;
 
 
 class Printer {
-
-
     private List<Matcher> matchers = Arrays.asList(Matcher.whizz(), Matcher.fizz(), Matcher.buzz());
+    private List<DigitMatcher> digitMatchers = Arrays.asList(DigitMatcher.fizz(), DigitMatcher.buzz(), DigitMatcher.whizz());
 
     Printer() {
         //noinspection unchecked
@@ -25,14 +24,10 @@ class Printer {
 
         String[] digits = String.valueOf(number).split("");
         for (String digit : digits) {
-            if (DigitMatcher.fizz().isMatched(digit)) {
-                return "fizz";
-            }
-            if (DigitMatcher.buzz().isMatched(digit)) {
-                return "buzz";
-            }
-            if (DigitMatcher.whizz().isMatched(digit)) {
-                return "whizz";
+            for (DigitMatcher digitMatcher : digitMatchers) {
+                if (digitMatcher.isMatched(digit)) {
+                    return digitMatcher.getText();
+                }
             }
         }
         return result.isEmpty()? String.valueOf(number) : result;
