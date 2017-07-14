@@ -12,7 +12,7 @@ class Printer {
     private final FizzMatcher fizzMatcher = new FizzMatcher();
     private final FizzBuzzMatcher fizzBuzzMatcher = new FizzBuzzMatcher(fizzMatcher, buzzMatcher);
 
-    private List<Matcher> matchers = Arrays.asList(fizzBuzzMatcher, fizzMatcher, buzzMatcher);
+    private List<Matcher> matchers = Arrays.asList(fizzMatcher, buzzMatcher);
 
     Printer() {
         //noinspection unchecked
@@ -20,13 +20,13 @@ class Printer {
     }
 
     String fizzbuzz(int digit) {
-
+        String result = "";
         for (Matcher matcher : matchers) {
             if (matcher.isMatched(digit)) {
-                return matcher.getText();
+                result += matcher.getText();
             }
         }
-        return String.valueOf(digit);
+        return result.isEmpty()? String.valueOf(digit) : result;
     }
 
 }
