@@ -7,25 +7,35 @@ import java.util.List;
 
 class Printer {
 
-    private final Matcher buzzMatcher = Matcher.buzz();
-    private final Matcher fizzMatcher = Matcher.fizz();
-    private final Matcher whizzMatcher = Matcher.whizz();
 
-    private List<Matcher> matchers = Arrays.asList(whizzMatcher, fizzMatcher, buzzMatcher);
+    private List<Matcher> matchers = Arrays.asList(Matcher.whizz(), Matcher.fizz(), Matcher.buzz());
 
     Printer() {
         //noinspection unchecked
         Collections.sort(matchers);
     }
 
-    String fizzbuzz(int digit) {
+    String fizzbuzz(int number) {
         String result = "";
         for (Matcher matcher : matchers) {
-            if (matcher.isMatched(digit)) {
+            if (matcher.isMatched(number)) {
                 result += matcher.getText();
             }
         }
-        return result.isEmpty()? String.valueOf(digit) : result;
+
+        String[] digits = String.valueOf(number).split("");
+        for (String digit : digits) {
+            if (DigitMatcher.fizz().isMatched(digit)) {
+                return "fizz";
+            }
+            if (DigitMatcher.buzz().isMatched(digit)) {
+                return "buzz";
+            }
+            if (DigitMatcher.whizz().isMatched(digit)) {
+                return "whizz";
+            }
+        }
+        return result.isEmpty()? String.valueOf(number) : result;
     }
 
 }

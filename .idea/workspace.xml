@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6c11638-1c88-472f-b2e0-449608e8cf75" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FizzBuzz/com/tw/fizzbuzz/BuzzMatcher.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FizzBuzz/com/tw/fizzbuzz/FizzBuzzMatcher.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FizzBuzz/com/tw/fizzbuzz/FizzMatcher.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FizzBuzz/com/tw/fizzbuzz/Matcher.class" afterPath="$PROJECT_DIR$/out/production/FizzBuzz/com/tw/fizzbuzz/Matcher.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tw/fizzbuzz/DigitMatcher.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FizzBuzz/com/tw/fizzbuzz/Printer.class" afterPath="$PROJECT_DIR$/out/production/FizzBuzz/com/tw/fizzbuzz/Printer.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/FizzBuzz/com/tw/fizzbuzz/FizzBuzzTest.class" afterPath="$PROJECT_DIR$/out/test/FizzBuzz/com/tw/fizzbuzz/FizzBuzzTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tw/fizzbuzz/Matcher.java" afterPath="$PROJECT_DIR$/src/main/java/com/tw/fizzbuzz/Matcher.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tw/fizzbuzz/Printer.java" afterPath="$PROJECT_DIR$/src/main/java/com/tw/fizzbuzz/Printer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/tw/fizzbuzz/FizzBuzzTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/tw/fizzbuzz/FizzBuzzTest.java" />
     </list>
@@ -34,8 +30,8 @@
       <file leaf-file-name="FizzBuzzTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/tw/fizzbuzz/FizzBuzzTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="40" lean-forward="true" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+            <state relative-caret-position="287">
+              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,10 +42,31 @@
       <file leaf-file-name="Printer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/fizzbuzz/Printer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="152">
+              <caret line="27" column="35" lean-forward="false" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DigitMatcher.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/fizzbuzz/DigitMatcher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+              <folding>
+                <element signature="e#114#115#0" expanded="true" />
+                <element signature="e#148#149#0" expanded="true" />
+                <element signature="e#182#183#0" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
+                <element signature="e#260#261#0" expanded="true" />
+                <element signature="e#304#305#0" expanded="true" />
+                <element signature="e#339#340#0" expanded="true" />
+                <element signature="e#383#384#0" expanded="true" />
+                <element signature="e#422#423#0" expanded="true" />
+                <element signature="e#471#472#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -128,9 +145,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/tw/fizzbuzz/FizzBuzzMatcher.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tw/fizzbuzz/FizzMatcher.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tw/fizzbuzz/BuzzMatcher.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/tw/fizzbuzz/FizzBuzzTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tw/fizzbuzz/WhizzMatcher.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tw/fizzbuzz/Matcher.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/tw/fizzbuzz/FizzBuzzTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tw/fizzbuzz/DigitMatcher.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tw/fizzbuzz/Printer.java" />
       </list>
     </option>
@@ -244,7 +262,7 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/tw/fizzbuzz" />
-    <property name="SearchEverywhereHistoryKey" value="Fi&#9;FILE&#9;file:///Users/twer/Documents/Workshop/FizzBuzz/src/main/java/com/tw/fizzbuzz/FizzBuzzMatcher.java&#10;fizz&#9;FILE&#9;file:///Users/twer/Documents/Workshop/FizzBuzz/src/main/java/com/tw/fizzbuzz/FizzBuzzMatcher.java&#10;Buzz&#9;FILE&#9;file:///Users/twer/Documents/Workshop/FizzBuzz/src/main/java/com/tw/fizzbuzz/BuzzMatcher.java&#10;FizzM&#9;PSI&#9;JAVA://com.tw.fizzbuzz.FizzMatcher&#10;Matcher&#9;PSI&#9;JAVA://com.tw.fizzbuzz.Matcher&#10;buzz&#9;PSI&#9;JAVA://com.tw.fizzbuzz.BuzzMatcher&#10;pri&#9;PSI&#9;JAVA://com.tw.fizzbuzz.Printor" />
+    <property name="SearchEverywhereHistoryKey" value="Di&#9;PSI&#9;JAVA://com.tw.fizzbuzz.DigitMatcher&#10;Fi&#9;FILE&#9;file:///Users/twer/Documents/Workshop/FizzBuzz/src/main/java/com/tw/fizzbuzz/FizzBuzzMatcher.java&#10;fizz&#9;FILE&#9;file:///Users/twer/Documents/Workshop/FizzBuzz/src/main/java/com/tw/fizzbuzz/FizzBuzzMatcher.java&#10;Buzz&#9;FILE&#9;file:///Users/twer/Documents/Workshop/FizzBuzz/src/main/java/com/tw/fizzbuzz/BuzzMatcher.java&#10;FizzM&#9;PSI&#9;JAVA://com.tw.fizzbuzz.FizzMatcher&#10;Matcher&#9;PSI&#9;JAVA://com.tw.fizzbuzz.Matcher&#10;buzz&#9;PSI&#9;JAVA://com.tw.fizzbuzz.BuzzMatcher&#10;pri&#9;PSI&#9;JAVA://com.tw.fizzbuzz.Printor" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
@@ -843,44 +861,44 @@
       <updated>1499933256595</updated>
       <workItem from="1499933259385" duration="10690000" />
       <workItem from="1500015923318" duration="161000" />
-      <workItem from="1500016111185" duration="6893000" />
+      <workItem from="1500016111185" duration="8656000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FizzBuzzTest - 2017.07.14 at 18h 12m 56s.xml">
+    <history-entry file="FizzBuzzTest - 2017.07.14 at 23h 23m 31s.xml">
       <configuration name="FizzBuzzTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzTest - 2017.07.14 at 18h 13m 40s.xml">
+    <history-entry file="FizzBuzzTest - 2017.07.14 at 23h 23m 46s.xml">
       <configuration name="FizzBuzzTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzTest - 2017.07.14 at 18h 20m 24s.xml">
+    <history-entry file="FizzBuzzTest - 2017.07.14 at 23h 24m 05s.xml">
       <configuration name="FizzBuzzTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzTest - 2017.07.14 at 18h 21m 43s.xml">
+    <history-entry file="FizzBuzzTest - 2017.07.14 at 23h 24m 42s.xml">
       <configuration name="FizzBuzzTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzTest - 2017.07.14 at 19h 02m 23s.xml">
+    <history-entry file="FizzBuzzTest - 2017.07.14 at 23h 25m 25s.xml">
       <configuration name="FizzBuzzTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzTest - 2017.07.14 at 19h 05m 53s.xml">
+    <history-entry file="FizzBuzzTest - 2017.07.14 at 23h 26m 06s.xml">
       <configuration name="FizzBuzzTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzTest - 2017.07.14 at 23h 14m 59s.xml">
+    <history-entry file="FizzBuzzTest - 2017.07.14 at 23h 38m 02s.xml">
       <configuration name="FizzBuzzTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzTest_test_when_input_is_fifteen - 2017.07.14 at 14h 41m 14s.xml">
-      <configuration name="FizzBuzzTest.test_when_input_is_fifteen" configurationId="JUnit" />
+    <history-entry file="FizzBuzzTest - 2017.07.14 at 23h 41m 50s.xml">
+      <configuration name="FizzBuzzTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzTest_test_when_input_is_fifteen - 2017.07.14 at 14h 41m 24s.xml">
-      <configuration name="FizzBuzzTest.test_when_input_is_fifteen" configurationId="JUnit" />
+    <history-entry file="FizzBuzzTest - 2017.07.14 at 23h 43m 53s.xml">
+      <configuration name="FizzBuzzTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzTest_test_when_input_is_fifteen - 2017.07.14 at 14h 42m 06s.xml">
-      <configuration name="FizzBuzzTest.test_when_input_is_fifteen" configurationId="JUnit" />
+    <history-entry file="FizzBuzzTest - 2017.07.14 at 23h 44m 17s.xml">
+      <configuration name="FizzBuzzTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17744000" />
+    <option name="totallyTimeSpent" value="19507000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="821" extended-state="6" />
@@ -1172,16 +1190,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/tw/fizzbuzz/FizzBuzzTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="40" lean-forward="true" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/fizzbuzz/WhizzMatcher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1211,10 +1219,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tw/fizzbuzz/FizzBuzzTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/fizzbuzz/DigitMatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <element signature="e#114#115#0" expanded="true" />
+            <element signature="e#148#149#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/fizzbuzz/Printer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="152">
+          <caret line="27" column="35" lean-forward="false" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
