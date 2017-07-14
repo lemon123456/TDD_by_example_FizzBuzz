@@ -21,7 +21,11 @@ public class FizzBuzzMatcher implements Matcher {
 
     @Override
     public String getText() {
-        return "fizzbuzz";
+        StringBuilder stringBuilder = new StringBuilder();
+        for (Matcher matcher : this.matchers) {
+            stringBuilder.append(matcher.getText());
+        }
+        return stringBuilder.toString();
     }
 
     @Override

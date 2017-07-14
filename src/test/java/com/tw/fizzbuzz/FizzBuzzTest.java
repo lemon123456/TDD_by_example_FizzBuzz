@@ -2,6 +2,8 @@ package com.tw.fizzbuzz;
 
 import org.junit.Test;
 
+import java.util.Arrays;
+
 import static org.junit.Assert.assertEquals;
 
 public class FizzBuzzTest {
@@ -25,6 +27,8 @@ public class FizzBuzzTest {
     @Test
     public void test_when_input_is_fifteen() throws Exception {
         assertEquals("fizzbuzz", printer.fizzbuzz(15));
+
+
     }
 
 }

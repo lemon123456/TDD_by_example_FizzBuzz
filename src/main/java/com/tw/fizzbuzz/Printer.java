@@ -10,7 +10,7 @@ class Printer {
 
     private final BuzzMatcher buzzMatcher = new BuzzMatcher();
     private final FizzMatcher fizzMatcher = new FizzMatcher();
-    private final FizzBuzzMatcher fizzBuzzMatcher = new FizzBuzzMatcher(buzzMatcher, fizzMatcher);
+    private final FizzBuzzMatcher fizzBuzzMatcher = new FizzBuzzMatcher(fizzMatcher, buzzMatcher);
 
     private List<Matcher> matchers = Arrays.asList(fizzBuzzMatcher, fizzMatcher, buzzMatcher);
 
